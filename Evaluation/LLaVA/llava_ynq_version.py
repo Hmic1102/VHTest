@@ -122,9 +122,8 @@ def main(args):
                     df['yn_LLaVA_bug_success'] = ''
 
                 for index, row in df.iterrows():
-                    image_file = os.path.join(image_base_path, row['image_path'])
+                    image_file = os.path.join(image_base_path, row['Image'])
                     question = row['yes_or_no_question'] + " ONLY answer yes or no."
-
                     # Reset the conversation object for each iteration
                     conv = conv_templates[args.conv_mode].copy()
 
@@ -163,8 +162,9 @@ def main(args):
                             use_cache=True,
                             stopping_criteria=[stopping_criteria])
 
-                    outputs = tokenizer.decode(output_ids[0, input_ids.shape[1]:]).strip()
-
+                    # outputs = tokenizer.decode(output_ids[0, input_ids.shape[1]:]).strip()
+                    outputs = tokenizer.decode(output_ids[0, :-1]).strip()
+                    print(f"index: {index}, outputs: {outputs}")
                     yn_output = classify_response(outputs)
 
                     df.at[index, 'yn_LLaVA_response'] = yn_output if yn_output != 'other' else outputs

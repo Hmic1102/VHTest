@@ -1,0 +1,150 @@
+Question: Read the characters on the store sign in the picture., answer: ANTYQUES & COLLECTIBLES, response: The characters on the store sign read "Antiques & Collectibles."
+Question: Read the English words verbatim in the picture., answer: ANTYQUES COLLECTIBLES, response: Antique & Collectibles
+Question: Read the English word located in the first row in the picture., answer: FRSSH, response: Fresh
+Question: Read the first English character from the left in the picture., answer: E, response: S
+Question: Read the second English character from the left in the picture., answer: A, response: E
+Question: Read the fifth English character from the left in the picture., answer: S, response: E
+Question: Read ONLY the English characters located in the topmost four rows in the picture., answer: WELCOME TO NOW CITY, response: Welcome to Now City
+Question: Read the English word located in the first row in the picture., answer: MAGCAL, response: Magical
+Question: Read the characters verbatim in the picture., answer: KNOOWL&DGE HUB, response: Knowledge & Edge Hub
+Question: Read the English characters located in the first row in the picture., answer: WWKKMO CCLE, response: W K M O C L E C T S D S E E A F R I
+Question: Read the English characters in the third row in the picture., answer: TEEHSSDSSEE, response: The English characters in the third row of the picture spell out "teeth."
+Question: Read the English characters in the fourth row in the picture., answer: ASFH AAFFRI, response: The English characters in the fourth row of the picture are "Af".
+Question: Read the leftmost six English characters in the topmost row in the picture., answer: ANTIIQ, response: Antique
+Question: Read the seven large English characters located in the first row of the signboard that is closest to us in the picture., answer: ABCCDFH, response: The seven large English characters located in the first row of the signboard closest to us are: A, B, C, D, E, F, and G.
+Question: Read the seven large English characters in the second row of the signboard that is closest to us in the picture., answer: FHLKNOR, response: The seven large English characters in the second row of the signboard closest to us are: "A", "B", "C", "D", "E", "F", and "G".
+Question: Read the seven large English characters in the fourth row of the signboard that is closest to us in the picture., answer: SUVWXXY, response: The seven large English characters in the fourth row of the signboard closest to us are: "S", "U", "V", "X", "Y", "Z", and "A".
+Question: Read the English words verbatim in the picture., answer: HAPPY MARDI GRASS, response: Happy Mardi Grass
+Question: Read the English word in the third row in the picture., answer: GRASS, response: Grass
+Question: Read the English word in the second row in the picture., answer: MARDI, response: Grass
+Question: Read the English characters in the topmost row that is directly below the caption on the paper in the picture., answer: ABBCDEFIGFLB, response: Wizard's Notices
+Question: Read the English caption on the paper in the picture., answer: WIZARDS' NOTICES, response: Wizard's Notices
+Question: Read the topmost three English characters located in the column directly below the 'W' in the caption in the picture., answer: AHH, response: The topmost three English characters located in the column directly below the 'W' in the caption are 'A', 'B', and 'C'.
+Question: Read the leftmost five English characters located in the first row on the wooden store sign with red texts in the picture., answer: FRUIT, response: Fruit & Vegetable
+Question: Read the last five English characters from the left in the picture., answer: CCIIN, response: Cappuccino
+Question: Read the English words verbatim in the picture., answer: WELCOME TO THE WILD, response: Welcome to the wild
+Question: Read the English words located in the first row on the largest paper in the picture., answer: Mistaa Twiddless, response: The English words located in the first row on the largest paper in the picture are "Miss Twiddles".
+Question: Read the English characters located in the second row on the paper in the picture., answer: TRUSK MAPS, response: An Gmzng Trush Maps
+Question: Read the leftmost seven English characters in the first row of the blackboard in the picture., answer: ABCCDEF, response: ABCDEFGHI
+Question: Read the rightmost four English characters in the first row of the blackboard in the picture., answer: GHFL, response: The rightmost four English characters in the first row of the blackboard are "JKLM."
+Question: Read the rightmost six English characters in the second row of the blackboard in the picture., answer: QPRPTU, response: The rightmost six English characters in the second row of the blackboard are: "QWERTYUIOP".
+Question: Read the fully visible English characters located in the first two rows on the plank wall in the picture., answer: HAPPY BIRI, response: The first two rows of English characters on the plank wall read "Happy Birthday."
+Question: Read the English characters located in the first two rows in the picture., answer: I SPEAK WIITTMOUTH HEAR WITHOUT EARS, response: I speak with my mouth, hear with my eyes, have a body, but no ears, have a wave, but I come alive with wind? What am I?
+Question: Read the English characters located in the fourth row in the picture., answer: WAVE BODY, response: The English characters in the fourth row read "but I come alive with wind?".
+Question: Read the characters located in the last row in the picture., answer: WHAT AM I?, response: The characters in the last row of the picture spell out "WHAT?".
+Question: Read the leftmost English word located in the first row in the picture., answer: NOURTH, response: North
+Question: Read the rightmost English word located in the third row in the picture., answer: WHEST, response: West
+Question: Read the leftmost six English characters in the third row in the picture., answer: EEASST, response: East West
+Question: Read the characters located in the first row in the picture., answer: W3LLCOMEE, response: The characters in the first row of the picture spell out "Welcome."
+Question: Read the characters located in the second row in the picture., answer: N3VERLAND, response: The characters located in the second row in the picture are "N3".
+Question: Read the last six characters from the left located in the third row in the picture., answer: DRLAND, response: Land
+Question: Read the English characters verbatim in the picture., answer: LEVITATING LLMAS CAN DANCE, response: Levitating Llama Can Dance
+Question: Read the English characters located in the second row in the picture., answer: LLMAS, response: Levitating Llamas Can Dance
+Question: Read the English characters located in the fourth row in the picture., answer: DANCE, response: Levi-tating Llama's Can Dance
+Question: Read the English word that is prominently large and at the center of the parchment in the picture., answer: SERNDIPITY, response: Serendipity
+Question: Read the first three English characters from the left of the small word at the bottom of the parchment in the picture., answer: SRE, response: Ser
+Question: Read the first seven English characters from the left of the small word at the top of the parchment in the picture., answer: SEREPEN, response: Serendipity
+Question: Read the leftmost English word in the first row of the billboard in the picture., answer: CREAITE, response: Create
+Question: Read the English word in the second row of the billboard in the picture., answer: PHENNIX, response: Uncomprehensible
+Question: Read the third English word from the left in the third row of the billboard in the picture., answer: UINCOMOIN, response: Uncomfortable
+Question: Read the English characters in the topmost row out of the rows that have only colorful English characters and black background in the picture., answer: OCEENA, response: The topmost row of English characters reads "Oceana Exploration Awaits You."
+Question: Read the English characters in the second topmost row out of the rows that have only colorful English characters and black background in the picture., answer: EXPLORATON, response: The English characters in the second topmost row are "Exploration Awaits You."
+Question: Read the large English characters in the third topmost row out of the rows that have only colorful English characters and black background in the picture., answer: AWAITES, response: The large English characters in the third topmost row read "Exploration Awaits You."
+Question: Read the English words located in the first row of the paragraph in the picture., answer: The quiick brown fox, response: The quick brown fox jumps over the lazy dog.
+Question: Read the large English characters in the topmost row in the picture., answer: PULIC NOTICE, response: PUBLIC NOTICE
+Question: Read the English characters in the second row out of the rows that have white characters in the picture., answer: GGFGHKJN, response: The second row of white characters in the picture reads "public notice."
+Question: Read the large English characters in the bottommost row in the picture., answer: PUBIC NUTICE, response: PUBLIC NOTICE
+Question: Read the English word at the center of the rectangular signboard in the picture., answer: ANTIQUSUM, response: Antique
+Question: Read the English characters located in the first row on the envelope in the picture., answer: WELOME TO, response: The English characters located in the first row on the envelope are "WBC."
+Question: Read the word that is prominently large at the center of the envelope in the picture., answer: 8ATITIL, response: Welcome
+Question: Read the last eleven English characters from the left in the bottommost row that is directly above the line of numbers on the envelope in the picture., answer: ROSTTVWXXXZ, response: 687901234567890
+Question: Read the English words verbatim in the picture., answer: HAPPY BRTHDAY, response: Happy Birthday
+Question: Read the English word located in the first row in the picture., answer: HAPPY, response: Happy
+Question: Read the English word located in the second row in the picture., answer: BRTHDAY, response: Happy
+Question: Read the upper-leftmost character in the picture., answer: R, response: The upper-leftmost character in the picture is "R".
+Question: Read the upper-rightmost character in the picture., answer: C, response: The upper-rightmost character in the picture is "S".
+Question: Read the bottom-leftmost character in the picture., answer: X, response: The bottom-leftmost character in the picture is the letter "Z".
+Question: Read the rightmost eight characters in the first row of characters on the right side of the paper in the picture., answer: GHKEDJFG, response: The rightmost eight characters in the first row of characters on the right side of the paper are "pqrsjklm".
+Question: Read the English caption located at the bottom left corner of the paper in the picture., answer: N JGURNEY TO FEXNLAND', response: A journey to Fexland.
+Question: Read the topmost five English characters located in the rightmost column in the picture., answer: GWXWJ, response: The topmost five English characters in the rightmost column are "WXYZ".
+Question: Read the English words on the largest board at the top of the picture., answer: EXXAMPLLES OF DESUEETDUDE, response: Examples of Desuetude
+Question: Read the English word in the first row on the largest board at the top of the picture., answer: EXXAMPLLES, response: Examples
+Question: Read the English word in the last row on the largest board at the top of the picture., answer: DESUEETDUDE, response: Examples
+Question: Read the purple English word in the picture., answer: FRUE, response: Fresh
+Question: Read the upper-leftmost English word in the picture., answer: AIPE, response: Ape
+Question: Read the upper-rightmost turquoise English word in the picture., answer: FREESH, response: Fresh
+Question: Read the bottommost English word in the picture., answer: WELOCOME, response: Welcome
+Question: Read the English characters at the top of the parchment in the picture., answer: haiiku, response: The English characters at the top of the parchment read "Haiku."
+Question: Read the English word on the second road sign from the top in the picture., answer: TOKOO, response: London
+Question: Read the English word on the third road sign from the top in the picture., answer: LONDON, response: London
+Question: Read the English word on the last road sign from the top in the picture., answer: CAIRO, response: Cairo
+Question: Read the prominently large row of white English words in the picture., answer: WE REMEMBER ALL THE WONDERFUL MOMENTS, response: As the sun sets
+Question: Read the leftmost black English word in the picture., answer: AS, response: As
+Question: Read the leftmost four English words that are black in the picture., answer: AS TS THE SUN, response: As at the sun sets
+Question: Read the English characters on the spine of the black book closest to us in the picture., answer: SREENPPDIY, response: The English characters on the spine of the black book closest to us are "Screenplay."
+Question: Read ONLY the English characters on the deep orange store sign at the upper right corner of the picture., answer: MMEHIBORD, response: The English characters on the deep orange store sign at the upper right corner of the picture are "NURSES SUPPLIED".
+Question: Read the leftmost three English characters located in the first row of the LED billboard in the picture., answer: LIV, response: Live
+Question: Read the English words located in the topmost row of the envelope in the picture., answer: GREETIING POSTARD, response: Greeting Postcard
+Question: Read the English characters located in the topmost row in the picture., answer: INTHE BRAVE ADVENTTURERS, response: In the Brave Adventurers: Juju the Good Luck Gnome
+Question: Read the rightmost English word located in the topmost row in the picture., answer: ADVENTTURERS, response: Reward
+Question: Read the English characters located in the bottommost row in the picture., answer: A GEINERROU REWARD, response: Age Nerouu. Reward.
+Question: Read the yellow English characters on the pink and blue store sign at the upper right corner of the picture., answer: CAFE, response: The yellow English characters on the pink and blue store sign at the upper right corner of the picture read "Café Shop."
+Question: Read the English characters on the rectangular store sign that is located on the left of the picture., answer: BOULANGERIE, response: Boulangerie
+Question: Read the English characters on the rectangular store sign that is located in the middle of the picture., answer: LIBRAIRIE, response: The English characters on the rectangular store sign in the middle of the picture read "Library."
+Question: Read the English characters on the rectangular store sign that is located on the right of the picture., answer: FLEURISTE, response: The English characters on the rectangular store sign on the right read "Fleuriste."
+Question: Read the English characters on the first road sign from the top in the picture., answer: NATHVILE, response: Nathansville Pesetown
+Question: Read the English characters on the second road sign from the top in the picture., answer: PSETOWN, response: The English characters on the second road sign from the top in the picture read "Peshtown."
+Question: Read the English characters on the third road sign from the top in the picture., answer: QARRIIS, response: The third road sign from the top reads "Pesetown."
+Question: Read ONLY the English characters on the first road sign from the top in the picture., answer: CAF, response: CAF 3
+Question: Read the English characters on the second road sign from the top in the picture., answer: LBRRAREE, response: The English characters on the second road sign from the top in the picture read "Library."
+Question: Read the English characters on the third road sign from the top in the picture., answer: PKRA, response: The English characters on the third road sign from the top in the picture are "CAF 3".
+Question: Read the English characters located in the bottommost row of the black board on the left side of the picture., answer: FRIIY TART, response: Fruit tart
+Question: Read the English words located in the topmost row in the picture., answer: CAFE AMIGO, response: Cafe Amigo
+Question: Read the English word written in black text on the beige background on the right side of the picture., answer: CAPPUCINO, response: Fruit tart
+Question: Read the English words verbatim in the picture., answer: HAPPI BUTDAE, response: Happy Birthday
+Question: Read the English characters located in the first row in the picture., answer: HAPPI, response: Happy Birthday
+Question: Read the English characters located in the second row in the picture., answer: BUTDAE, response: Budd'ae
+Question: Read the English characters located in the first row in the picture., answer: WELCO ME, response: Welcome me to the sunflower field.
+Question: Read the English characters located in the second row in the picture., answer: TO THE THE, response: Welcome to the Sunflower Field
+Question: Read the English characters located in the third row in the picture., answer: SU FOWER, response: The English characters in the third row of the picture read "Sunflower."
+Question: Read the English characters verbatim in the picture., answer: SUNET PIHEE, response: Sunset Drive
+Question: Read the English characters located in the first row in the picture., answer: SUNET, response: The English characters in the first row spell "SUNRISE."
+Question: Read the English characters located in the second row in the picture., answer: PIHEE, response: The English characters in the second row of the image spell "Sunset."
+Question: Read the English words verbatim in the picture., answer: TINKLED STARZ, response: Tinkled Starz
+Question: Read the English word located in the first row in the picture., answer: TINKLED, response: Tinkled
+Question: Read the English word located in the second row in the picture., answer: STARZ, response: Tinkled
+Question: Read the English word on the cover of the red book in the picture., answer: SCENERY, response: Scenery
+Question: Read the English characters located in the third row in the picture., answer: CETET, response: The English characters in the third row of the picture spell "FLOOD."
+Question: Read the English characters located in the second row in the picture., answer: ELLOM, response: The English characters in the second row read "Welcome."
+Question: Read the English characters located in the sixth row in the picture., answer: FLODD, response: The English characters in the sixth row read "Rabbit flood."
+Question: Read the upper-leftmost English character in the picture., answer: M, response: M
+Question: Read the upper-rightmost white English character in the picture., answer: Y, response: The upper-rightmost white English character in the picture is the letter "K."
+Question: Read the rightmost English word on the arched wooden plank at the bottom of the store sign in the picture., answer: SHOP, response: Book
+Question: Read the English characters located in the first row of the parchment in the picture., answer: ABCCDEFFGH, response: The first row of the parchment reads "A B C D E F G H I J K L M N O P Q R S T U V W X Y Z."
+Question: Read the rightmost five English characters located in the second row of the parchment in the picture., answer: HLJMU, response: The rightmost five English characters located in the second row of the parchment are "S, T, U, V, W."
+Question: Read the leftmost six English characters located in the third row of the parchment in the picture., answer: JKMNQP, response: The leftmost six English characters located in the third row of the parchment are "ABCD."
+Question: Read the characters located in the first row in the picture., answer: GR88, response: The characters in the first row are "G", "R", "8", and "8".
+Question: Read the English characters located in the second row in the picture., answer: PIZZZA, response: The English characters in the second row read "Pizza Special."
+Question: Read the characters located in the third row in the picture., answer: $p2ZA or $P2ZA, response: The characters located in the third row in the picture are "Pizza Special."
+Question: Read the characters located in the first row in the picture., answer: COFF3EE, response: Coffee House
+Question: Read the characters located in the second row in the picture., answer: HOUS3 or HOU53, response: The characters located in the second row spell "coffee."
+Question: Read ONLY the English characters located in the first row in the picture., answer: COFFEE, response: Coffee House
+Question: Read the leftmost three English characters in the first row in the picture., answer: WAN, response: Wand
+Question: Read ONLY the English characters in the third row in the picture., answer: WOODDS, response: Wandre in Woods
+Question: Read the leftmost five English characters in the third row in the picture., answer: WOODD, response: Wandre
+Question: Read the English characters located in the first row on the board at the top of the picture., answer: BeKSPINOK, response: The English characters located in the first row on the board at the top of the picture are "BESPISNIK HEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE
+Question: Read the leftmost four English characters located in the second row on the board at the top of the picture., answer: HEeE, response: The leftmost four English characters in the second row on the board at the top of the picture are "BESPINK".
+Question: Read the rightmost three English characters located in the second row on the board at the top of the picture., answer: VYZ, response: The rightmost three English characters located in the second row on the board at the top of the picture are "E", "S", and "V".
+Question: Read the English characters located in the first row in the picture., answer: ENCHNTED, response: The English characters in the first row of the picture spell "Enchanted Forest."
+Question: Read the leftmost six English characters located in the first row in the picture., answer: ENCHNT, response: The leftmost six English characters in the first row are "Enchanted Forest."
+Question: Read the English word located in the second row in the picture., answer: FORST, response: Forest
+Question: Read the English characters located in the first row on the large white fabric in the picture., answer: WELLCME, response: Welcome to Tail Market
+Question: Read the leftmost six English characters on the store sign closest to us in the picture., answer: PATESS, response: The leftmost six English characters on the store sign closest to us in the picture are "Pate".
+Question: Read the black English caption on the board in the picture., answer: PACTURE, response: The black English caption on the board reads "Pacture."
+Question: Read the leftmost four English characters in the second row out of the rows that are below the black caption in the picture., answer: FLIK, response: The leftmost four English characters in the second row are "FLIK".
+Question: Read the rightmost four English characters in the second row out of the rows that are below the black caption in the picture., answer: INOK, response: The rightmost four English characters in the second row are "FHJKL".
+Question: Read the yellow English characters on the LED store sign on the right side of the picture., answer: BSBBFE, response: The yellow English characters on the LED store sign read "BAR BEE."
+Question: Read the English characters on the black door nameplate with gray border in the picture., answer: WELSECOME N, response: The nameplate on the black door reads "Welcome."
+Question: Read the topmost three English characters located in the column that is directly below the bird in the picture., answer: WCM, response: WMC
+Question: Read the second row from the top with three English characters on square planks in the picture., answer: VCM, response: The second row from the top with three English characters on square planks in the picture reads "WMC."
+Question: Read the English word verbatim in the picture., answer: conglaturation, response: Congratulation
