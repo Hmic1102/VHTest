@@ -39,17 +39,24 @@ def load_image(image_file):
 
 
 def classify_response(outputs):
-    lower_case_start = outputs[:3].lower()
+    # lower_case_start = outputs[:3].lower()
     
-    if lower_case_start == 'yes':
+    # if lower_case_start == 'yes':
+    #     return 'y'
+    # else:
+    #     lower_case_start = outputs[:2].lower()
+    #     if lower_case_start == 'no':
+    #         return 'n'
+    #     else:
+    #         print(f"!!!WRONG FORMAT: {outputs}")
+    #         return 'wrong_format'
+    if 'yes' in outputs.lower():
         return 'y'
+    elif 'no' in outputs.lower():
+        return 'n'
     else:
-        lower_case_start = outputs[:2].lower()
-        if lower_case_start == 'no':
-            return 'n'
-        else:
-            print(f"!!!WRONG FORMAT: {outputs}")
-            return 'wrong_format'
+        print(f"!!!WRONG FORMAT: {outputs}")
+        return 'wrong_format'
 
 
 def main(args):
@@ -105,9 +112,11 @@ def main(args):
 
                 # Ensure columns exist for initial and follow-up responses
                 if 'yn_LLaVA_response' not in df.columns:
+                    df['yn_LLaVA_origin_response'] = ''
                     df['yn_LLaVA_response'] = ''
                     df['yn_LLaVA_bug_success'] = ''
                 if 'followup_LLaVA_response' not in df.columns:
+                    df['followup_LLaVA_origin_response'] = ''
                     df['followup_LLaVA_response'] = ''
                     df['followup_LLaVA_bug_success'] = ''
 
@@ -137,7 +146,11 @@ def main(args):
 
                     prompt = conv.get_prompt()
                     input_ids = tokenizer_image_token(prompt, tokenizer, IMAGE_TOKEN_INDEX, return_tensors='pt').unsqueeze(0).to(model.device)
-                    stopping_criteria = KeywordsStoppingCriteria([conv.sep], tokenizer, input_ids)
+                    # stopping_criteria = KeywordsStoppingCriteria([conv.sep], tokenizer, input_ids)
+                    stop_str = conv.sep if conv.sep_style != SeparatorStyle.TWO else conv.sep2
+                    keywords = [stop_str]
+                    stopping_criteria = KeywordsStoppingCriteria(keywords, tokenizer, input_ids)
+                    streamer = TextStreamer(tokenizer, skip_prompt=True, skip_special_tokens=True)
 
                     with torch.inference_mode():
                         output_ids = model.generate(
@@ -146,14 +159,15 @@ def main(args):
                             do_sample=True if args.temperature > 0 else False,
                             temperature=args.temperature,
                             max_new_tokens=args.max_new_tokens,
+                            use_cache=True,
                             stopping_criteria=[stopping_criteria]
                         )
 
-                    # initial_response = tokenizer.decode(output_ids[0, input_ids.shape[1]:]).strip()
-                    # yn_initial_output = classify_response(initial_response)
-
-                    # df.at[index, 'yn_LLaVA_response'] = yn_initial_output if yn_initial_output != 'wrong_format' else initial_response
-                    # df.at[index, 'yn_LLaVA_bug_success'] = 0 if yn_initial_output == row['yes_or_no_ground_truth'] else 1
+                    initial_response = tokenizer.decode(output_ids[0, :-1]).strip()
+                    yn_initial_output = classify_response(initial_response)
+                    df.at[index, 'yn_LLaVA_origin_response'] = initial_response
+                    df.at[index, 'yn_LLaVA_response'] = yn_initial_output if yn_initial_output != 'wrong_format' else initial_response
+                    df.at[index, 'yn_LLaVA_bug_success'] = 0 if yn_initial_output == row['yes_or_no_ground_truth'] else 1
 
                     # Continue conversation with follow-up question
                     conv.append_message(conv.roles[0], follow_up_question)
@@ -171,29 +185,30 @@ def main(args):
                             temperature=args.temperature,
                             max_new_tokens=args.max_new_tokens,
                             stopping_criteria=[stopping_criteria],
-                            streamer = streamer
+                            # streamer = streamer
                         )
 
-                    # followup_response = tokenizer.decode(output_ids[0, input_ids.shape[1]:]).strip()
-                    # yn_followup_output = classify_response(followup_response)
-
-
+                    followup_response = tokenizer.decode(output_ids[0, :-1]).strip()
+                    yn_followup_output = classify_response(followup_response)
+                    df.at[index, 'followup_LLaVA_origin_response'] = followup_response
+                    df.at[index, 'followup_LLaVA_response'] = yn_followup_output if yn_followup_output != 'wrong_format' else followup_response
+                    df.at[index, 'followup_LLaVA_bug_success'] = 0 if yn_followup_output == row['yes_or_no_ground_truth'] else 1
                     # Save intermediate results every 5 rows
-                    # if index % 5 == 0:
-                    #     df.to_excel(results_xlsx_path, index=False)
+                    if index % 5 == 0:
+                        df.to_excel(results_xlsx_path, index=False)
 
                 # Calculate accuracy
-                # yn_LLaVA_bug_success_avg = df['yn_LLaVA_bug_success'].mean()
-                # result_list.append(f"vh_mode {vh_mode} ynq_acc_LLaVA {1 - yn_LLaVA_bug_success_avg}")
-                # result_value_list.append(1 - yn_LLaVA_bug_success_avg)
+                yn_LLaVA_bug_success_avg = df['yn_LLaVA_bug_success'].mean()
+                result_list.append(f"vh_mode {vh_mode} ynq_acc_LLaVA {1 - yn_LLaVA_bug_success_avg}")
+                result_value_list.append(1 - yn_LLaVA_bug_success_avg)
 
                 # Add final result row
-                # new_row = [None] * len(df.columns)
-                # column_index = df.columns.get_loc('yn_LLaVA_bug_success')
-                # new_row[column_index] = yn_LLaVA_bug_success_avg
-                # df.loc[df.index[-1] + 1] = new_row
+                new_row = [None] * len(df.columns)
+                column_index = df.columns.get_loc('yn_LLaVA_bug_success')
+                new_row[column_index] = yn_LLaVA_bug_success_avg
+                df.loc[df.index[-1] + 1] = new_row
 
-                # df.to_excel(results_xlsx_path, index=False)
+                df.to_excel(results_xlsx_path, index=False)
 
     # for result in result_list:
     #     print(result)
