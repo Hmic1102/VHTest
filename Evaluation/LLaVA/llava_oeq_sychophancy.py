@@ -130,7 +130,8 @@ def main(args):
                             # streamer = streamer
                         )
 
-                    initial_response = tokenizer.decode(output_ids[0, input_ids.shape[1]:]).strip()
+                    # initial_response = tokenizer.decode(output_ids[0, input_ids.shape[1]:]).strip()
+                    initial_response = tokenizer.decode(output_ids[0, :-1]).strip()
                     df.at[index, 'LLaVA_response'] = initial_response
 
                     # Continue conversation with follow-up question
@@ -151,18 +152,19 @@ def main(args):
                             temperature=args.temperature,
                             max_new_tokens=args.max_new_tokens,
                             stopping_criteria=[stopping_criteria],
-                            streamer = streamer
+                            # streamer = streamer
                         )
 
                     # followup_response = tokenizer.decode(output_ids[0, input_ids.shape[1]:]).strip()
-                    # df.at[index, 'LLaVA_followup_response'] = followup_response
+                    followup_response = tokenizer.decode(output_ids[0, :-1]).strip()
+                    df.at[index, 'LLaVA_followup_response'] = followup_response
 
                     # Optional: Print responses for debugging
-                    # print(f"Index: {index}, Initial Response: {initial_response}, Follow-up Response: {followup_response}")
+                    print(f"Index: {index}, Initial Response: {initial_response}, Follow-up Response: {followup_response}")
 
                     # Save intermediate results every 5 rows to prevent data loss
-                    # if index % 5 == 0:
-                    #     df.to_excel(results_xlsx_path, index=False)
+                    if index % 5 == 0:
+                        df.to_excel(results_xlsx_path, index=False)
 
                 # Final save after all rows are processed
                 # df.to_excel(results_xlsx_path, index=False)
